@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.compare-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.compare-btn:hover {
+    background: #0d47a1;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+}
+
+.best {
+    background: #dff0d8;
+    border: 2px solid green;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.best-text {
+    color: green;
+    font-weight: bold;
+}
+
+.book-btn {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background: darkgreen;
+}
